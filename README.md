@@ -2,7 +2,7 @@
 
 A lightweight, reusable component library built from scratch with **React** and **Vite** — featuring Buttons, Cards, and Modals with multiple variants and prop-driven customisation.
 
-> 🎓 Built as a demo assignment for **CodeAlpha Internship** by **Hiba Shaukat**
+> 🎓 Built as a demo assignment for **Appverse Internship** by **Hiba Shaukat**
 
 ---
 
@@ -108,4 +108,4 @@ src/
 
 ## 👩‍💻 Author
 
-**Hiba Shaukat** — Web Engineering Student · CodeAlpha Intern
+**Hiba Shaukat** — Web Engineering Student · Intern
