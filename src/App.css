@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f8f7ff;
+  color: #1a1a2e;
+  min-height: 100vh;
+}
+
+/* Header */
+.app-header {
+  background: linear-gradient(135deg, #6C63FF 0%, #9b8fff 100%);
+  padding: 36px 0;
+}
+.app-header__inner {
+  max-width: 900px; margin: 0 auto; padding: 0 24px;
+  display: flex; align-items: center; gap: 18px;
+}
+.app-header__logo { font-size: 40px; }
+.app-header__title { font-size: 28px; font-weight: 800; color: #fff; }
+.app-header__sub   { font-size: 14px; color: rgba(255,255,255,0.75); margin-top: 4px; letter-spacing: 0.3px; }
+
+/* Main */
+.app-main { max-width: 900px; margin: 0 auto; padding: 48px 24px; display: flex; flex-direction: column; gap: 56px; }
+
+/* Section */
+.section { position: relative; }
+.section__label {
+  font-size: 11px; font-weight: 800; color: #6C63FF; letter-spacing: 2px;
+  text-transform: uppercase; margin-bottom: 6px;
+}
+.section__title { font-size: 24px; font-weight: 800; color: #1a1a2e; margin-bottom: 6px; }
+.section__desc  { font-size: 14px; color: #888; margin-bottom: 28px; }
+
+/* Demo blocks */
+.demo-block { margin-bottom: 24px; }
+.demo-block__heading { font-size: 12px; font-weight: 700; color: #aaa; letter-spacing: 0.8px; text-transform: uppercase; margin-bottom: 12px; }
+
+/* Row layout */
+.row { display: flex; flex-wrap: wrap; gap: 12px; }
+.row--align-center { align-items: center; }
+
+/* Cards grid */
+.cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 20px; }
+
+/* Modal form */
+.modal-form { display: flex; flex-direction: column; gap: 14px; }
+.modal-form label { font-size: 13px; font-weight: 600; color: #444; display: flex; flex-direction: column; gap: 5px; }
+.modal-form input,
+.modal-form textarea {
+  border: 1.5px solid #e0e0e0; border-radius: 8px;
+  padding: 9px 13px; font-size: 14px; font-family: 'Inter', sans-serif;
+  outline: none; transition: border-color 0.2s;
+  color: #1a1a2e;
+}
+.modal-form input:focus,
+.modal-form textarea:focus { border-color: #6C63FF; }
+.modal-form textarea { resize: vertical; }
+
+/* Footer */
+.app-footer {
+  text-align: center; padding: 24px;
+  font-size: 13px; color: #aaa; border-top: 1.5px solid #ebe9ff;
+}
