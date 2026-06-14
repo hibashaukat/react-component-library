@@ -185,7 +185,7 @@ export default function App() {
       </main>
 
       <footer className="app-footer">
-        Made with ❤️ by <strong>Hiba Shaukat</strong> · CodeAlpha Internship
+        Made with ❤️ by <strong>Hiba Shaukat</strong> ·  Internship
       </footer>
     </div>
   );
